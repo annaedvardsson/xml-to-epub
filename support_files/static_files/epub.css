@@ -1,0 +1,108 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+@namespace z3998 "http://www.daisy.org/z3998/2012/vocab/structure/#";
+
+aside {
+    background-color: #f2f2f2;
+    padding: 2px 24px 8px 24px;
+    margin: 6px 0;
+}
+
+blockquote {
+    border-top: 1px solid #555;
+}
+
+body {
+    display: block;
+    font-family: "Arial Unicode MS", sans-serif;
+    margin: 2em;
+}
+
+code, kbd, pre, samp {
+    font-family: "Consolas", "Courier", monospace;
+}
+
+div.linegroup {
+    margin: .5em 0 .5em 0;
+}
+
+figcaption {
+    padding: .5em;
+    text-align: center;
+}
+
+figure {
+    margin: 1em;
+}
+
+hr.emptyline {
+    border: 0;
+    margin: 2em auto 2em auto;
+}
+
+hr.separator {
+    border: 2px solid #555;
+    height: 0;
+    margin: 2em auto 2em auto;
+    width: 1em;
+}
+
+img {
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto
+}
+
+ol.list-style-type-none,
+ul.list-style-type-none {
+    list-style-type: none;
+}
+
+p {
+    display: block;
+    margin: 0 0 .5em 0;
+    text-align: justify;
+}
+
+p.bridgehead {
+    font-style: bold;
+    font-size: 1.25em;
+}
+
+p.author,
+p.author_info {
+    font-style: italic;
+    text-align: right;
+}
+
+p.lead {
+    margin: auto 2em;
+}
+
+span.linenum {
+    margin-right: .5em;
+}
+
+span.linenum::before {
+    content: "[";
+}
+
+span.linenum::after {
+    content: "]";
+}
+
+table {
+    border-spacing: 0;
+    margin:.5em 0 .5em 0;
+}
+
+td, th {
+    border: 1px solid #555;
+    margin: 0;
+    padding: .25em;
+}
+
+th {
+    background-color: #CCC;
+    font-weight: normal;
+}

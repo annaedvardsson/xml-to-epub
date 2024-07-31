@@ -1,0 +1,8 @@
+# Ignore the specified directories
+.idea/
+temp_dir*/
+file_examples/
+
+# Ignore the following file types
+*.epub
+*.zip
